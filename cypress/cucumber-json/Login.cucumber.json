@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    I want to log into Conduit",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;conduit-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Conduit Login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open Conduit login page",
+            "result": {
+              "status": "passed",
+              "duration": 3582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I type in username and password",
+            "result": {
+              "status": "passed",
+              "duration": 935000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on Sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 8106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"Your Feed\" should be shown",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

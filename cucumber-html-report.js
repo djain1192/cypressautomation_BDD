@@ -8,9 +8,9 @@ report.generate({
             name: 'chrome',
             version: '100'
         },
-        device: 'Local test machine',
+        device: 'test machine',
         platform: {
-            name: 'ubuntu',
+            name: 'mac',
             version: '16.04'
         }
     },
