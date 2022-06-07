@@ -11,16 +11,11 @@
   }, 
   "env": {
     "POCurl": "https://rahulshettyacademy.com/angularpractice/",
-    "Prometricurl":"https://sr-cx-registration-scheduling-ui-bil.nonprod.proproctor.prometric.com/",
-    "PrometricVerifyurl":"https://sr-cx-registration-scheduling-ui-bil.nonprod.proproctor.prometric.com/verify",
-    "CNATTURL":"https://sr-cx-cnatt-ui-dev.nonprod.proproctor.prometric.com/"
+    "ConduitURL":"https://react-redux.realworld.io/#/Login"
   },
   "testFiles": ["**/*.feature","**/*.js"],
 
     "retries": {
       "runMode": 1
-    },
-
-
-  "projectId": "z5s7jo"
+    }
 }

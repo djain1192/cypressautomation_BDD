@@ -13,12 +13,7 @@
         "keyword": "Scenario",
         "line": 6,
         "name": "Ecommerce products delivery",
-        "tags": [
-          {
-            "name": "@Regression",
-            "line": 5
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -28,7 +23,7 @@
             "name": "I open Ecommerce Page",
             "result": {
               "status": "passed",
-              "duration": 1237000000
+              "duration": 1303000000
             }
           },
           {
@@ -38,7 +33,7 @@
             "name": "I add items to cart",
             "result": {
               "status": "passed",
-              "duration": 35406000000
+              "duration": 50424000000
             }
           },
           {
@@ -48,7 +43,7 @@
             "name": "Select the country submit and verify Thankyou",
             "result": {
               "status": "passed",
-              "duration": 5551000000
+              "duration": 5522000000
             }
           }
         ]
@@ -58,12 +53,7 @@
         "keyword": "Scenario",
         "line": 12,
         "name": "Filling the form to shop",
-        "tags": [
-          {
-            "name": "@Regression",
-            "line": 11
-          }
-        ],
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -73,7 +63,7 @@
             "name": "I open Ecommerce Page",
             "result": {
               "status": "passed",
-              "duration": 455000000
+              "duration": 492000000
             }
           },
           {
@@ -112,7 +102,7 @@
             "name": "validate the forms behaviour",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 13000000
             }
           },
           {
@@ -122,7 +112,7 @@
             "name": "select the Shop Page",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 95000000
             }
           }
         ]

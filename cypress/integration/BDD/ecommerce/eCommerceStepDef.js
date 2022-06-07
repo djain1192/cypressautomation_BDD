@@ -1,25 +1,23 @@
-import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
+import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps"
 import HomePage from '../../../pageObjects/HomePage'
 
+//#region eCommerce
 
-Given('I open Ecommerce Page', ()=> 
-{
+Given('I open Ecommerce Page', () => {
     cy.visit(Cypress.env('POCurl'))
 }
 )
 
-When('I add items to cart', ()=>
-{
+When('I add items to cart', () => {
     const homePage = new HomePage()
-    homePage.getShopTab().click() 
+    homePage.getShopTab().click()
     homePage.addToCart1().click()
-    homePage.addToCart2().click() 
+    homePage.addToCart2().click()
     homePage.checkout().click()
-} 
+}
 )
 
-Then('Select the country submit and verify Thankyou', ()=>
-{
+Then('Select the country submit and verify Thankyou', () => {
     const homePage = new HomePage()
     homePage.checkoutButton().click()
     homePage.countryTextBox().type('India')
@@ -32,23 +30,21 @@ Then('Select the country submit and verify Thankyou', ()=>
 )
 
 // When - I fill the form details
-When('I fill the form details', function(dataTable)
-{
+When('I fill the form details', function (dataTable) {
     const homePage = new HomePage()
     homePage.getEditBox().type(dataTable.rawTable[1][0])
     homePage.getGender().select("Female")
 }
 )
-Then('validate the forms behaviour', ()=>
-{
+Then('validate the forms behaviour', () => {
     const homePage = new HomePage()
-    homePage.getTwoWayDataBinding().should('have.value',"dj")
+    homePage.getTwoWayDataBinding().should('have.value', "dj")
     homePage.getEntrepreneaur().should('be.disabled')
 }
 )
-And('select the Shop Page', ()=>
-{
+And('select the Shop Page', () => {
     const homePage = new HomePage()
     homePage.submitButton().click()
 }
 )
+//#endregion eCommerce
