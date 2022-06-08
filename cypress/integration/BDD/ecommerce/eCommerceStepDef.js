@@ -33,6 +33,7 @@ Then('Select the country submit and verify Thankyou', () => {
 When('I fill the form details', function (dataTable) {
     const homePage = new HomePage()
     homePage.getEditBox().type(dataTable.rawTable[1][0])
+    //homePage.getGender().select(dataTable.rawTable[1][1])
     homePage.getGender().select("Female")
 }
 )
