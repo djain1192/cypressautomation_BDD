@@ -12,8 +12,8 @@ Feature: End to end Ecommerce validation
     Scenario: Filling the form to shop
         Given I open Ecommerce Page
         When I fill the form details
-            | name |  | gender |
-            | dj  |  | Female |
+        |name | | gender |
+        |dj | | Male |
         Then validate the forms behaviour
         And select the Shop Page
 

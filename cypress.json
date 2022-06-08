@@ -7,7 +7,9 @@
     "overwrite": false,
     "html": true,
     "json": true,
-    "chart": true
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true
   }, 
   "env": {
     "POCurl": "https://rahulshettyacademy.com/angularpractice/",
